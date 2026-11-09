@@ -6,3 +6,4 @@ minecraft_launcher_lib
 flask 
 werkzeug 
 wget 
+pypresence
