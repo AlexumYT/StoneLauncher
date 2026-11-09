@@ -1,0 +1,15 @@
+pyinstaller ^
+  --onefile ^
+  --noconsole ^
+  --noupx ^
+  --noconfirm ^
+  --uac-admin ^
+  --icon=img/logo.ico ^
+  --add-data "img/logo.png;img" ^
+  --collect-all minecraft_launcher_lib ^
+  --collect-all pypresence ^
+  --collect-all PyQt6 ^
+  --hidden-import=flask ^
+  --hidden-import=werkzeug ^
+  --name StoneLauncher ^
+  StoneLauncher.py

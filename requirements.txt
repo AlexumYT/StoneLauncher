@@ -1,0 +1,8 @@
+requests 
+PyQt6 
+pyinstaller 
+downrinth 
+minecraft_launcher_lib 
+flask 
+werkzeug 
+wget 
