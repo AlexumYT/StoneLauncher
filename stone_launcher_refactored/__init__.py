@@ -1,0 +1,1 @@
+"""Stone Launcher package."""
